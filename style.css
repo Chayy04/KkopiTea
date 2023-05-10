@@ -1,0 +1,7 @@
+#landing{
+    background-image: url(/img/kopi_logo.jpg);
+    background-size: cover;
+    width: auto;
+    display: grid;
+
+}
