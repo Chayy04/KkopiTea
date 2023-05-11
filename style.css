@@ -1,7 +1,24 @@
-#landing{
-    background-image: url(/img/kopi_logo.jpg);
-    background-size: cover;
+#mywebsite{
     width: auto;
+}
+
+#landing{
+    background-image: linear-gradient(to bottom,rgba(95, 71, 6, 0.652),rgba(178, 181, 172, 0.564)), url(/img/image/landing.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 90vh;
     display: grid;
+    place-content: center;
+    color: rgb(89, 53, 11);
+    text-shadow: 1px 2px rgb(31, 24, 16);   
+}
+
+#mission{
+    border: 1px;
+    place-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
 
 }
