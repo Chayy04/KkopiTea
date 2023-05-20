@@ -1,36 +1,36 @@
 @font-face {
     font-family: 'CutieFont';
-    src: url('./font/BreeSerif-Regular.ttf') format('OpenType');
+    src: url('../font/BreeSerif-Regular.ttf') format('OpenType');
   }
 
   @font-face {
     font-family: 'CutieFontt';
-    src: url('./font/Shrikhand-Regular.ttf') format('OpenType');
+    src: url('../font/Shrikhand-Regular.ttf') format('OpenType');
   }
 
   @font-face {
     font-family: 'CutieFonttt';
-    src: url('./font/TitanOne-Regular.ttf') format('OpenType');
+    src: url('../font/TitanOne-Regular.ttf') format('OpenType');
   }
 
   @font-face {
     font-family: 'CutieFontttt';
-    src: url('./font/LilitaOne-Regular.ttf') format('OpenType');
+    src: url('../font/LilitaOne-Regular.ttf') format('OpenType');
   }
 
   @font-face {
     font-family: 'CutieFonttttt';
-    src: url('./font/Chewy-Regular.ttf') format('OpenType');
+    src: url('../font/Chewy-Regular.ttf') format('OpenType');
   }
   
   @font-face {
     font-family: 'CutieFontttttt';
-    src: url('./font/DancingScript-VariableFont_wght.ttf') format('OpenType');
+    src: url('../font/DancingScript-VariableFont_wght.ttf') format('OpenType');
   }
 
   @font-face {
     font-family: 'CutieFonttttttt';
-    src: url('./font/LeckerliOne-Regular.ttf') format('OpenType');
+    src: url('../font/LeckerliOne-Regular.ttf') format('OpenType');
   }
   
 
@@ -40,7 +40,7 @@
 }
 
 #landing{
-    background-image: linear-gradient(to bottom,rgba(70, 55, 11, 0.771),rgba(178, 181, 172, 0.564)), url(./img/image/landing.jpg);
+    background-image: linear-gradient(to bottom,rgba(116, 95, 34, 0.771),rgba(178, 181, 172, 0.564)), url(../img/image/landing.jpg);
     background-size: cover;
     background-position: center;
     width: auto;
@@ -58,8 +58,10 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+
+
 
 #footer{
   background-color: rgba(33, 18, 3, 0.803);
@@ -175,6 +177,12 @@ video{
   transform: scale(1.2);
 }
 
+area div div div h2{
+  font-size: 100px;
+}
+
+ /* ........................Iced Latte.................... */
+
 
 
 @media (min-width: 768px) {
@@ -215,6 +223,15 @@ video{
   .home .carousel-control-prev{
       left: -30px;
   }
+
+  #mission{
+    border: 1px;
+    place-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+}
 
 }
 
@@ -266,5 +283,17 @@ video{
     z-index: 1;
   }
 
+  area div div div h2{
+    font-size: 500px;
+  }
+
+  #mission{
+    border: 1px;
+    place-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
 
 }
